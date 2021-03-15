@@ -31,7 +31,7 @@ public class Servlet05 extends HttpServlet {
 		//Servlet에서 위에 내용을 분리 시키자
 		*/		
 		
-		//컨트롤러 생성 및 요청 처리 메소드 호출
+		//컨트롤러 생성 및 요청 처리 메소드 호출!
 		Controller05 ctrl = new Controller05();
 		String viewName = ctrl.getBoardList(request, response);
 		
